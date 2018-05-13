@@ -21,10 +21,10 @@ function increaseRankBy(n) {
 }
 
 function deepestChild() {
-  // pulls out the most deeply nestd child from div#grand-node
+  // pulls out the most deeply nested child from div#grand-node
   let search = document.getElementById('grand-node').querySelectorAll('ul');
   var criteriaFn = (n === (search.length - 1));
-  function find(serach, criteriaFn) {
+  function find(search, criteriaFn) {
   let next = []
   while (search) {
     if (search[lastElement]) {
