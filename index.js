@@ -11,7 +11,7 @@ function nestedTarget() {
 function increaseRankBy(n) {
   // incresases the ranks of all the .ranked-lists by n 
   // may need to us parseInt()
-  
+  const lis = document.getElementById('app').querySelectorAll(ul.ranked-lists)
 }
 
 function deepestChild() {
