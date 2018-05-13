@@ -4,7 +4,7 @@ function getFirstSelector(selector) {
 
 function nestedTarget() {
   // pulls a .target out of #nested 
-  return document.getElementByClassName('target')
+  return document.getElementsByClassName('target')
 }
 
 function increaseRankBy(n) {
