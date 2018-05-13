@@ -24,7 +24,7 @@ function deepestChild() {
   // pulls out the most deeply nestd child from div#grand-node
   let search = document.getElementById('grand-node').querySelectorAll('ul');
   let next = []
-  let tries = search.length;
+  let all = search.length;
   while (search) {
     if (place) {
       
