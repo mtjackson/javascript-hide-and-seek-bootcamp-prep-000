@@ -21,5 +21,5 @@ function increaseRankBy(n) {
 
 function deepestChild() {
   // pulls out the most deeply nestd child from div#grand-node
-  
+  document.getElementById('grand-node')
 }
