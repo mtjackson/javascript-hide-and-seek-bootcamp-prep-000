@@ -27,7 +27,7 @@ function deepestChild() {
   let lastElement = search.length - 1;
   while (search) {
     if (search[lastElement]) {
-      return search
+      return search;
     }
   }
   
