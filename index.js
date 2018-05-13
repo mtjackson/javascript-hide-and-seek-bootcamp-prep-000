@@ -23,7 +23,7 @@ function increaseRankBy(n) {
 function deepestChild() {
   // pulls out the most deeply nestd child from div#grand-node
   let search = document.getElementById('grand-node').querySelectorAll('ul');
-  let cirtieraFn = d;
+  let criteriaFn = (n === (search.length));
   let next = []
   let lastElement = search.length - 1;
   while (search) {
