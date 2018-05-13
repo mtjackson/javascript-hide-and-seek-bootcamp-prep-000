@@ -26,8 +26,8 @@ function deepestChild() {
   let next = []
   let lastElement = search.length - 1;
   while (search) {
-    if (place) {
-      
+    if (search[lastElement]) {
+      return search
     }
   }
   
