@@ -9,8 +9,6 @@ function nestedTarget() {
 }
 
 function increaseRankBy(n) {
-  // incresases the ranks of all the .ranked-lists by n 
-  // may need to us parseInt()
   const lis = document.getElementById('app').querySelectorAll('ul.ranked-list li')
   
   for (let i = 0; i < lis.length; i++) {
@@ -18,6 +16,7 @@ function increaseRankBy(n) {
     lis[i].innerHTML = (parseInt(x + n)).toString()
   }
 }
+
 
 function deepestChild() {
   let allChildren = document.querySelectorAll('div#grand-node');
