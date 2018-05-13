@@ -21,20 +21,7 @@ function increaseRankBy(n) {
 }
 
 function deepestChild() {
-  // pulls out the most deeply nested child from div#grand-node
-  let search = document.getElementById('grand-node').querySelectorAll('ul');
-  var criteriaFn = (n === (search.length - 1));
-  function find(search, criteriaFn) {
-  let next = []
-  while (search) {
-    if (search[lastElement]) {
-      return search;
-    }
-    if (placeholder) {
-      for (let i = 0; i < lastElement; i++) {
-        next.push(current[i]);
-      }
-    }
-  }
-  }
+  let allChildren = document.getElementById('grand-node').querySelectorAll('ul');
+  let lastIndex = allChildren.length - 1
+  return allChildren[lastIndex]
 }
